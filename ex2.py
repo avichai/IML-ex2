@@ -48,6 +48,7 @@ def calcGradient(s, w):
 
 def main():
     s_5_1 = sample(5, 1)
+
     s_1000_0001 = sample(1000, 0.001)
     l_s_5_1 = calcLS(s_5_1)
     l_s_1000_0001 = calcLS(s_1000_0001)
